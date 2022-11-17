@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Moonrocks&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto:wght@600&family=Rubik+Moonrocks&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Pacifico&family=Varela+Round&display=swap');
+
+.logo{
+    padding: 10px 0px 10px 25px;
+    font-family: 'Yellowtail', cursive;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.logo-img{
+    height: 80px;
+    width: 80px;
+}
+
+.header-item{
+    list-style: none;
+    padding: 10px 0px 10px 25px;
+    margin-top: 1.5rem !important;
+}
+
+.header-item li{
+    padding: 0rem 3rem;
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.mob-logo{
+    cursor: pointer;
+}
+
+.header-animation{
+    animation: header-visibility;
+    animation-duration: 3s;
+}
+
+@media (max-width:1199.98px) and (min-width:991.98px) {
+    .header-item li{
+        padding: 0rem 1.5rem;
+    }
+}
+
+@media (max-width:991.98px) and (min-width:768px){
+    .header-item li{
+        padding: 0rem 1rem;
+    }
+}
+
+@media (max-width:767.98px) {
+    .header-item li{
+        display: none;
+    }
+
+    .mob-logo{
+        width: 100%;
+        text-align: center;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+
+    .logo{
+        padding: 0px 0px 0px 25px;
+    }
+
+    .logo-img{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@keyframes header-visibility {
+    from {opacity: 0;}
+    to {opacity:1;}
+}
