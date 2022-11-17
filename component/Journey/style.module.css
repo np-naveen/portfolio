@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+
+.section_title{
+    color: #515257;
+    font-family: 'Nunito', cursive;
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.container{
+    max-width: 455px;
+}

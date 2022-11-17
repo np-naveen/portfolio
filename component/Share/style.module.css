@@ -1,0 +1,39 @@
+.item{
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 100;
+}
+
+.item:hover{
+    color: #fff;
+}
+
+.liststyle{
+    list-style-type: none;
+}
+
+.border::after{
+    content: " ";
+    border-right: 2px solid #fff;
+    height: 1.75rem;
+    width: 2rem;
+    margin-left: 0.55rem;
+}
+
+.container{
+    width:fit-content ;
+    position: absolute;
+    top: 13rem;
+}
+
+@media (max-width:787.99px) and (min-width:425px){
+    .container{
+        top:8rem
+    }
+}
+
+@media (max-width:424.98px){
+    .container{
+        display: none;
+    }
+}

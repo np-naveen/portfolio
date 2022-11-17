@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Mr+Dafoe&display=swap');
+
+.homepage{
+    position: relative;
+    width: 97%;
+    opacity: 0;
+    height: 93vh;
+    margin: 1.25rem;
+    border-radius: 10px;
+    background: rgb(238,174,232);
+    background: linear-gradient(0deg , #cf8789 0%, #7f5f91 15%);
+    animation: slideUp .8s ease-in-out  forwards 1s;
+    color: #fff;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(90vh) scale(.1);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
+.name{
+    font-size: 6rem;
+    margin-top: 10rem;
+    font-family: 'Mr Dafoe', cursive;
+    animation: spin 2s;
+}
+
+.description{
+    font-size: 2.5rem;
+    font-family: 'Kanit', sans-serif;
+    animation: descrip 2s;
+}
+
+.intro{
+    display: none;
+    font-size: 1rem;
+    margin-top:3rem;
+    padding: 1rem;
+    font-weight: 600;
+    text-align: center;
+    animation: shortintro 2s;
+}
+
+@keyframes descrip {
+    0% {
+       opacity: 0;
+       transform: rotate(360deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0deg); 
+    }
+  }
+
+@keyframes spin { 
+    from { 
+        opacity: 0;
+        transform: rotate(0deg); 
+    } to { 
+        opacity: 1;
+        transform: rotate(360deg); 
+    }
+}
+
+@keyframes shortintro {
+    from{
+        opacity: 0;
+        transform: translateY(100%);
+    }to{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+  @media (max-width:991.98px) and (min-width:768px) {
+    .homepage{
+        width: 97.5%;
+        margin: 0.75rem;
+    }
+  }
+
+  @media (max-width:767.98px) and (min-width:320px) {
+    .homepage{
+        width: 100%;
+        margin: 0rem;
+        height: 100vh;
+    }   
+    .name{
+        font-size: 3rem;
+        margin-top: 10rem;
+    }
+    .description{
+        font-size: 1.5rem;
+    }
+ }
+
+ @media (max-width:424.98px){
+    .intro{
+        display: block;
+    }
+    .name{
+        margin-top: 7rem;
+    }
+    .homepage{
+        border-radius: 0px;
+    }
+ }

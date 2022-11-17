@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
+.about{
+    margin: 22px 0px;
+    border-radius: 10px;
+}
+
+.about_me{
+    font-size: 1rem;
+    font-family:'Varela Round', sans-serif;
+    text-align: center;
+}
+
+.heading{
+    color: #515257;
+    font-family: 'Nunito', cursive;
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 800;
+}
+.sub_heading
+{
+    font-size: 1.25rem;
+    margin-top: 0rem !important;
+    opacity: 0.7;
+}
+.about_img{
+    width: 88%;
+    height: 10rem;
+    margin-left: 1.5rem;
+    border-radius: 10px;
+}
+.text_area{
+    padding: 1rem 4rem;
+}
+
+@keyframes bg-animation{
+    from{background-color: #fff;}
+    to{background-color: #86c1fc;}
+}
+
+@media (max-width:767.98px) {
+    .about_img{
+        margin-left: 0rem;
+        height: auto;
+    }
+    .text_area{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .heading{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 1.5rem;
+    }
+    .sub_heading{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:991.98px) and (min-width:767.98px) {
+    .about_img{
+        height: 7rem;
+        margin-top: 1.5rem;
+    }
+    .text_area{
+        padding: 1rem;
+    }
+}
