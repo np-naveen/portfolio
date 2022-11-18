@@ -1,3 +1,4 @@
+
 import Download from '../Download';
 import ReachMeAt from '../ReachMe';
 import style from './style.module.css'
@@ -17,7 +18,7 @@ const About = (props) =>{
                 </div>
                 <div className={`col-8 ${style.text_area}`}>
                 <p className={style.about_me}>&emsp;{props.props.about}</p>
-                <Download/>
+                    <Download/>
                 </div>
             </div>
         </div>

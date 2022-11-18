@@ -1,13 +1,13 @@
 import $ from "jquery";
 import Head from 'next/head'
-import HomePage from "../component/HomePage";
-import Skill from '../component/skill';
+import HomePage from "component/HomePage";
+import Skill from 'component/skill';
 import { useEffect } from 'react';
-import MenuBar from '../component/MenuBar';
-import pagedata from '../public/utils/utils'
-import Project from "../component/Project";
-import Journey from "../component/Journey";
-import About from "../component/About";
+import MenuBar from 'component/MenuBar';
+import pagedata from 'public/utils/utils'
+import Project from "component/Project";
+import Journey from "component/Journey";
+import About from "component/About";
 
 export const getStaticProps = async () => {
   const dob = new Date("04/01/1999");
