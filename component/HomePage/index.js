@@ -22,7 +22,7 @@ const HomePage =(props)=>{
     },[]);
 
     return <>
-        <div className={style.homepage} id='home-container'>
+        <div className={style.homepage} id='home'>
             <div className='d-flex justify-content-center text-center align-items-center'>
                 {name.length !=0 && <span className={style.name}>{name}</span>}
             </div>

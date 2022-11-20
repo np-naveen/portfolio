@@ -8,6 +8,7 @@
     bottom: 2rem;
     border-radius: 10px;
     opacity : 0.8;
+    animation: fade 8s;
 }
 
 .menulist{
@@ -32,5 +33,14 @@
 @media (max-width:787.98px){
     .menucontainer{
         bottom: 1rem;
+    }
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
