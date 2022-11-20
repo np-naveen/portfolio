@@ -27,6 +27,9 @@
     font-size: 6rem;
     margin-top: 10rem;
     font-family: 'Mr Dafoe', cursive;
+    -webkit-animation: spin 2s;
+    -moz-animation: spin 2s;
+    -o-animation: spin 2s;
     animation: spin 2s;
 }
 
@@ -58,12 +61,46 @@
   }
 
 @keyframes spin { 
-    from { 
+    0% { 
         opacity: 0;
         transform: rotate(0deg); 
-    } to { 
+    } 
+    100% { 
         opacity: 1;
         transform: rotate(360deg); 
+    }
+}
+
+@-webkit-keyframes spin { 
+    0% { 
+        -webkit-opacity: 0;
+        -webkit-transform: rotate(0deg); 
+    } 
+    100% { 
+        -webkit-opacity: 1;
+        -webkit-transform: rotate(360deg); 
+    }
+}
+
+@-moz-keyframes spin { 
+    0% { 
+        -moz-opacity: 0;
+        -moz-transform: rotate(0deg); 
+    } 
+    100% { 
+        -moz-opacity: 1;
+        -moz-transform: rotate(360deg); 
+    }
+}
+
+@-o-keyframes spin { 
+    0% { 
+        -o-opacity: 0;
+        -o-transform: rotate(0deg); 
+    } 
+    100% { 
+        -o-opacity: 1;
+        -o-transform: rotate(360deg); 
     }
 }
 
@@ -103,7 +140,7 @@
         display: block;
     }
     .name{
-        margin-top: 7rem;
+        margin-top: 9rem;
     }
     .homepage{
         border-radius: 0px;
