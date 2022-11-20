@@ -144,5 +144,6 @@
     }
     .homepage{
         border-radius: 0px;
+        background: linear-gradient(-18deg , #cf8789 10%, #7f5f91 35%);
     }
  }
