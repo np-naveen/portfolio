@@ -6,6 +6,7 @@
     border-radius: 10px;
     margin: 10px;
     display: flex;
+    justify-content: space-around;
 }
 
 .logo{
@@ -14,14 +15,12 @@
     padding: 1rem;
     background-color: #fff;
     border-radius: 10px;
-    margin-left: 10px;
 }
 
 .card_detail{
     color: #515257;
     background-color: #fff;
     align-self: center;
-    margin-left: 15px;
     padding: 1rem;
     border-radius: 10px;
     width: 13rem;
@@ -37,18 +36,16 @@
         height: 3.5rem;
     }
     .card_detail{
-        margin-left: 10px;
         width: 12rem;
     }
 }
 
-@media (max-width:365px) and (min-width:320px) {
+@media (max-width:425px) and (min-width:320px) {
     .card{
         width: 19rem;
     }
     .card_detail{
-        width: 9rem;
+        width: 9.15rem;
         font-size: 11px;
-        margin-left: 5px;
     }
 }

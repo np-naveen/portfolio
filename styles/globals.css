@@ -25,3 +25,9 @@ a:hover{
 .ml-13{
 	margin-left: 13rem;
 }
+
+@media (min-width: 1400px) {
+	.container{
+		max-width: 1140px !important;
+	}	
+}
