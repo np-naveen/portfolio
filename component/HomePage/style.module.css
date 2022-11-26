@@ -44,9 +44,10 @@
     font-size: 1rem;
     margin-top:3rem;
     padding: 1rem;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     animation: shortintro 2s;
+    font-family:'Varela Round', sans-serif;
 }
 
 @keyframes descrip {
