@@ -44,7 +44,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
         <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"/>
     </Head>
       <HomePage props={props.shortIntro}/>
