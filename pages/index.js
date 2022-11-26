@@ -43,6 +43,9 @@ export default function Home(props) {
         <meta name="description" content="Web developer, Currently working in byjus" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"/>
     </Head>
       <HomePage props={props.shortIntro}/>
       <Skill skills={props.skills}/>
