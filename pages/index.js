@@ -46,6 +46,7 @@ export default function Home(props) {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
         <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"/>
     </Head>
       <HomePage props={props.shortIntro}/>
       <Skill skills={props.skills}/>
