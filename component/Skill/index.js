@@ -10,10 +10,14 @@ const Skill = (props)=>{
             </div>
             {skills.data.map((data)=>(
             <div className={style.skillbox}>
-                <span>
-                    <img src={data.iconlink} className={style.icon}></img>
-                </span>
-                {data.title}
+                <div className='mb-2'>
+                    <span>
+                        <img src={data.iconlink} className={style.icon}></img>
+                    </span>
+                    <span>
+                        {data.title}
+                    </span>
+                </div>
                 <ul className={style.listfont}>
                     {data.items.map((itemData)=>(
                         <li>{itemData.data}</li>
