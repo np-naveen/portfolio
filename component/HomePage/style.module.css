@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Mr+Dafoe&display=swap');
 
 .homepage{
-    position: relative;
+    /* position: relative; */
     width: 97%;
     opacity: 0;
     height: 93vh;
@@ -11,6 +11,11 @@
     background: linear-gradient(0deg , #cf8789 0%, #7f5f91 15%);
     animation: slideUp .8s ease-in-out  forwards 1s;
     color: #fff;
+}
+
+.homeContainer{
+    position: relative;
+    top: 27%;
 }
 
 @keyframes slideUp {
@@ -25,7 +30,6 @@
 
 .name{
     font-size: 6rem;
-    margin-top: 10rem;
     font-family: 'Mr Dafoe', cursive;
     -webkit-animation: spin 2s;
     -moz-animation: spin 2s;
@@ -129,7 +133,6 @@
     }   
     .name{
         font-size: 3rem;
-        margin-top: 10rem;
     }
     .description{
         font-size: 1.5rem;
@@ -141,7 +144,7 @@
         display: block;
     }
     .name{
-        margin-top: 9rem;
+     
     }
     .homepage{
         border-radius: 0px;

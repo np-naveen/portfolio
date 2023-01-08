@@ -23,15 +23,19 @@ const HomePage =(props)=>{
 
     return <>
         <div className={style.homepage} id='home'>
-            <div className='d-flex justify-content-center text-center align-items-center'>
-                {name.length !=0 && <span className={style.name}>{name}</span>}
+            <div className={style.homeContainer}>
+                <div className='d-flex justify-content-center text-center align-items-center'>
+                    {name.length !=0 && <span className={style.name}>{name}</span>}
+                </div>
+                <div className='d-flex justify-content-center text-center align-items-center'>
+                    {description.length !=0 ? <div className={style.description}>{description}</div>:<></>}
+                </div>
+                <div>
+                    {shortIntro.length !=0 && <p className={style.intro}>&nbsp;&nbsp;{shortIntro}</p>}
+                </div>
             </div>
-        <div className='d-flex justify-content-center text-center align-items-center'>
-            {description.length !=0 ? <div className={style.description}>{description}</div>:<></>}
         </div>
-        <div>{shortIntro.length !=0 && <p className={style.intro}>&nbsp;&nbsp;{shortIntro}</p>}</div>
         <Share/>
-        </div>
     </>
 }
 
