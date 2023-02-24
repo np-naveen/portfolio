@@ -68,6 +68,13 @@ const project = {
             "img_link" : "/project/portfolio-img.jpg",
             "tech_stack":"Next js, Strapi",
             "redirect_link" : "/"
+        },
+        {
+            "proj_name" : "Todo Application",
+            "description": "ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or list everything that we have to do.",
+            "img_link" : "/project/todo.png",
+            "tech_stack":"MERN Stack",
+            "redirect_link" : "https://np-todo.vercel.app"
         }
     ]
 }
@@ -75,12 +82,12 @@ const project = {
 const journey = {
     "data" : [
         {
-            "role" : "Software Engineer",
+            "role" : "Associate Software Engineer",
             "logo_link": "/journey/byjus.png",
-            "duration": "Nov 2021 - Present",
+            "duration": "Nov 2021 - Feb 2023",
         },
         {
-            "role" : "RPA Developer",
+            "role" : "Junior RPA Developer",
             "logo_link": "/journey/e5.svg",
             "duration": "Sept 2020 - Oct 2021",
         },
