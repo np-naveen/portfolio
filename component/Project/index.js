@@ -21,7 +21,7 @@ const Project = (props) =>{
                                 <div className={`${style.proj_tech_stack_container} justify-content-between mt-3`}>
                                     <div className={style.tech_stack}>TECH STACK : {data.tech_stack}</div>
                                     <div>
-                                        <a href={data.redirect_link} className={style.redirect_link}>
+                                        <a href={data.redirect_link} className={style.redirect_link} target="_blank">
                                         Click here to visit</a>
                                     </div>
                                 </div>  
