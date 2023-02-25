@@ -44,13 +44,6 @@ const skill = {
         ]
     },
     {
-        "title": "RPA",
-        "iconlink":"./skillicons/program-icon.png",
-        "items":  [
-            {"data":"UiPath"}
-        ]
-    },
-    {
         "title": "Version control",
         "iconlink":"./skillicons/program-icon.png",
         "items":[
@@ -85,11 +78,6 @@ const journey = {
             "role" : "Associate Software Engineer",
             "logo_link": "/journey/byjus.png",
             "duration": "Nov 2021 - Feb 2023",
-        },
-        {
-            "role" : "Junior RPA Developer",
-            "logo_link": "/journey/e5.svg",
-            "duration": "Sept 2020 - Oct 2021",
         },
         {
             "role" : "Intern",
