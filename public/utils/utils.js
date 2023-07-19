@@ -5,7 +5,6 @@ const skill = {
         "iconlink":"./skillicons/program-icon.png",
         "items":  [
             {"data":"C"},
-            {"data":"Java"},
             {"data":"Javascript"},
             {"data":"Typescript"}
         ]
@@ -75,14 +74,14 @@ const project = {
 const journey = {
     "data" : [
         {
+            "role" : "SDE - I",
+            "logo_link": "https://www.getmyparking.com/src/getmyparking.svg",
+            "duration": "Mar 2023 - Present",
+        },
+        {
             "role" : "Associate Software Engineer",
             "logo_link": "/journey/byjus.png",
             "duration": "Nov 2021 - Feb 2023",
-        },
-        {
-            "role" : "Intern",
-            "logo_link": "/journey/infy.png",
-            "duration": "Dec 2019 - Feb 2020",
         },
         {
             "role" : "B.Tech (IT)",
