@@ -18,7 +18,7 @@ export const getStaticProps = async () => {
 
   return {
     props:{
-      about: `Hi, I'm Naveen Prabhu, A ${age} year old Full Stack Web developer, Living in Salem, India. Currently working in Byju's as Associate Software Engineer. I love combining the worlds of logic and creative design with easy accessible, eye-catching and also user friendly websites & applications.`,
+      about: `Hi, I'm Naveen Prabhu, A ${age} year old Full Stack Web developer, Living in Bangalore, India. Currently working in GET MY PARKING as Software Engineer. I love combining the worlds of logic and creative design with easy accessible, eye-catching and also user friendly websites & applications.`,
       shortIntro:`I love combining the worlds of logic and creative design with easy accessible, eye-catching and also user friendly websites`,
       skills:pagedata.skill,
       project:pagedata.project,
