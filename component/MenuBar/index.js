@@ -1,8 +1,26 @@
 import { useEffect, useState } from 'react';
 import style from './style.module.css'
+import $ from "jquery";
+
 const MenuBar = () =>{
 
     const [activeMenu,setActiveMenu] = useState('home');
+
+    const handleScroll = async()=>{
+        const homeDivHeight = document.getElementById('home').offsetTop;
+        const scrollY = window.scrollY
+        console.log(scrollY > document.getElementById('about').offsetTop-200)
+        if(scrollY >= document.getElementById('skill').offsetTop - 200 && scrollY <= document.getElementById('journey').offsetTop-200){
+            setActiveMenu('skill')
+        }else if(scrollY > document.getElementById('journey').offsetTop-200 && scrollY<=document.getElementById('about').offsetTop-200){
+            setActiveMenu('journey')
+        }
+        else if( scrollY > document.getElementById('about').offsetTop-200){
+            setActiveMenu('about')
+        }else{
+            setActiveMenu('home')
+        }
+      }
     const setMenuItemActive = async()=>{
         const menu = document.querySelectorAll('#menu');
     }
@@ -13,6 +31,9 @@ const MenuBar = () =>{
 
     useEffect(()=>{
         setMenuItemActive();
+        $( window ).scroll(function() {
+            handleScroll();
+        });
     },[]);
 
     return <>
