@@ -17,3 +17,11 @@
     height: 3rem;
     margin: 1rem;
 }
+
+.madeTxt{
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    color: #282727;
+    margin-top: 5rem;
+}
