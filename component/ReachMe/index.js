@@ -30,6 +30,9 @@ const ReachMeAt = () =>{
                 </a>
             </div>
         </div>
+        <div className={style.madeTxt}>
+            Made with 💙 in India
+        </div>
     </div>
     </>
 }
