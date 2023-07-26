@@ -40,7 +40,7 @@ export default function Home(props) {
     <div className='portfolio' id='home-page'>
     <Head>
         <title>Naveen Prabhu V</title>
-        <meta name="description" content="Web developer, Currently working in byjus" />
+        <meta name="description" content="Web developer, Currently working in Get My Parking" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
