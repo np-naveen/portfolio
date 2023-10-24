@@ -16,6 +16,7 @@ const skill = {
             {"data":"HTML"},
             {"data":"CSS"},
             {"data":"Bootstrap"},
+            {"data":"Material UI"},
             {"data":"Styled Components"},
             {"data":"emotions"},
             {"data":"React js"},
