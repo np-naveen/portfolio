@@ -13,7 +13,7 @@ const About = (props) =>{
             <div className='d-flex row'>
                 <div className="col-md">
                     <div className='d-flex justify-content-center'>
-                        <img src='me.jpg' className={style.about_img}/>
+                        <img src='6529E27F-C74A-43F5-B3F9-397728CED8F7.jpeg' className={style.about_img}/>
                     </div>
                 </div>
                 <div className={`col-8 ${style.text_area}`}>
