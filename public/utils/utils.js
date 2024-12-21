@@ -86,7 +86,7 @@ const journey = {
         },
         {
             "role" : "RPA Engineer Trainee",
-            "logo_link": "/journey/e5.png",
+            "logo_link": "/journey/e5.svg",
             "duration": "Sept 2020 - Oct 2021",
         },
         {
