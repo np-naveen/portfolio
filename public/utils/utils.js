@@ -85,6 +85,11 @@ const journey = {
             "duration": "Nov 2021 - Feb 2023",
         },
         {
+            "role" : "RPA Engineer Trainee",
+            "logo_link": "/journey/e5.png",
+            "duration": "Sept 2020 - Oct 2021",
+        },
+        {
             "role" : "B.Tech (IT)",
             "logo_link": "/journey/kct.svg",
             "duration": "2016-2020",
