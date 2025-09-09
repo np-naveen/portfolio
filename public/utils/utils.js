@@ -75,7 +75,7 @@ const project = {
 const journey = {
     "data" : [
         {
-            "role" : "SDE - I",
+            "role" : "SDE - II",
             "logo_link": "https://www.getmyparking.com/src/getmyparking.svg",
             "duration": "Mar 2023 - Present",
         },
